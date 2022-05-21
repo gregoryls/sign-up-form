@@ -18,13 +18,20 @@
     color: white;
     font-size: 3rem;
     width: 100%;
-    height: 10vh;
-    background-color: rgba(0,0,0,0.6);
     margin-top: 30vh;
+    background-color: rgba(0,0,0,0.6);
     display: flex;
     align-items: center;
     justify-content: center;
 }
+#header p{
+    font-family: 'NemoyMedium';
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body{
     display: flex;
     margin: 0;
@@ -40,9 +47,24 @@ body{
     text-align: center;
 }
 #contentHead,#contentFoot{
-    background-color: sandybrown;
+    background-color: #b1cc675e;
     height: 33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+}
+#contentFoot{
+    flex-direction: column;
 }
 #form{
     height: 34vh;
+}
+#createAccount{
+    color: rgb(32, 32, 32);
+    background-color: rgb(165, 59, 207);
+}
+p{
+    margin: 0;
 }
