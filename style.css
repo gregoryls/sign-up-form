@@ -3,7 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 35vw;
    
@@ -19,10 +20,21 @@
     height: 10vh;
     background-color: rgba(0,0,0,0.6);
     margin-top: 30vh;
-    text-align: center;
-    line-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body{
     display: flex;
     margin: 0;
+}
+#credit{
+    font-size: .75rem;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
