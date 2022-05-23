@@ -7,7 +7,6 @@ function onChange() {
     const confirm = document.querySelector('input[name=confirmPassword]');
     if (confirm.value === password.value) {
       confirm.setCustomValidity('');
-    //   confirmDiv.removeChild(confirmDiv.lastChild);
       spanSelector.remove();
     } else {
       if (spanSelector) return;
