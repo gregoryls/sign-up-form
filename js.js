@@ -10,6 +10,7 @@ function onChange() {
     //   confirmDiv.removeChild(confirmDiv.lastChild);
       spanSelector.remove();
     } else {
+      if (spanSelector) return;
       confirm.setCustomValidity('Passwords do not match');
       confirmDiv.appendChild(span);
       span.classList.add('password-error');
