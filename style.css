@@ -80,3 +80,11 @@ p{
     
     box-shadow: inset 0px 0px 10px #000000;
 }
+input{
+    border: 1px rgba(0, 0, 0, 0.307) solid;
+    border-radius: 4px;
+}
+input:focus{
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.24);
+}
