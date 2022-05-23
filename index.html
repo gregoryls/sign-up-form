@@ -38,61 +38,67 @@
         </div>
         <div id="form">
             <form action="" method="post">
-                <div>
-                    <label for="firstName">
-                        FIRST NAME
-                    </label>
-                
-                <input type="text" id="firstName" name="firstName" 
-                placeholder="John" required>
+                <div class="names">
+                    <div>
+                        <label for="firstName">
+                            FIRST NAME
+                        </label>
+                    
+                    <input type="text" id="firstName" name="firstName"
+                    placeholder="John" required>
+                    </div>
+                    
+                    <div>
+                        <label for="lastName">
+                            LAST NAME
+                        </label>
+                    
+                    <input type="text" id="lastName" name="lastName"
+                    placeholder="Doe" required>
+                    </div>
                 </div>
                 
-                <div>
-                    <label for="lastName">
-                        LAST NAME
-                    </label>
-                
-                <input type="text" id="lastName" name="lastName"
-                placeholder="Doe" required>
+                <div class="details">
+                    <div>
+                        <label for="email">
+                            EMAIL
+                        </label>
+                    
+                    <input type="email" id="email" name="email"
+                    placeholder="john@doe.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">
+                            PHONE NUMBER
+                        </label>
+                    
+                    <input type="tel" id="phone" name="phone"
+                    placeholder="000-000-0000" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                    </div>
                 </div>
                 
-                <div>
-                    <label for="email">
-                        EMAIL
-                    </label>
-                
-                <input type="email" id="email" name="email"
-                placeholder="john@doe.com" required>
-                </div>
-                <div>
-                    <label for="phone">
-                        PHONENUMBER
-                    </label>
-                
-                <input type="tel" id="phone" name="phone"
-                placeholder="000-000-0000" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
-                </div>
-                
-                <div>
-                    <label for="userPassword">
-                        PASSWORD
-                    </label>
-                    <!-- <p>
-                        Please choose a password with at least one upper case letter,
-                         one lower case letter, and one number.
-                         pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
-                    </p> -->
-                <input type="password" id="userPassword" name="userPassword"
-                placeholder="********"  onchange='onChange()' required>
-                </div>
-                <div class="confirm">
-                    <label for="confirmPassword">
-                        CONFIRM PASSWORD
-                    </label>
-                
-                <input type="password" id="confirmPassword" name="confirmPassword"
-                placeholder="********" onchange='onChange()'  required>
-                
+                <div class="passwords">
+                    <div>
+                        <label for="userPassword">
+                            PASSWORD
+                        </label>
+                        <!-- <p>
+                            Please choose a password with at least one upper case letter,
+                             one lower case letter, and one number.
+                             pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                        </p> -->
+                    <input type="password" id="userPassword" name="userPassword"
+                    placeholder="********"  onchange='onChange()' required>
+                    </div>
+                    <div class="confirm">
+                        <label for="confirmPassword">
+                            CONFIRM PASSWORD
+                        </label>
+                    
+                    <input type="password" id="confirmPassword" name="confirmPassword"
+                    placeholder="********" onchange='onChange()'  required>
+                    
+                    </div>
                 </div>
             
         </div>
