@@ -42,50 +42,52 @@
                     <label for="firstName">
                         FIRST NAME
                     </label>
-                </div>
+                
                 <input type="text" id="firstName" name="firstName" 
                 placeholder="John" required>
+                </div>
                 
                 <div>
                     <label for="lastName">
                         LAST NAME
                     </label>
-                </div>
+                
                 <input type="text" id="lastName" name="lastName"
                 placeholder="Doe" required>
+                </div>
                 
                 <div>
                     <label for="email">
                         EMAIL
                     </label>
-                </div>
+                
                 <input type="email" id="email" name="email"
                 placeholder="john@doe.com" required>
-                
+                </div>
                 <div>
                     <label for="phone">
                         PHONENUMBER
                     </label>
-                </div>
-                <input type="tel" id="phone" name="phone"
-                placeholder="000-000-0000" required>
                 
+                <input type="tel" id="phone" name="phone"
+                placeholder="000-000-0000" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                </div>
                 <div>
                     <label for="userPassword">
                         PASSWORD
                     </label>
-                </div>
+                
                 <input type="password" id="userPassword" name="userPassword"
                 placeholder="********" required>
-                
+                </div>
                 <div>
                     <label for="confirmPassword">
                         CONFIRM PASSWORD
                     </label>
-                </div>
+                
                 <input type="password" id="confirmPassword" name="confirmPassword"
                 placeholder="********" required>
-                
+                </div>
             
         </div>
         <div id="contentFoot">
