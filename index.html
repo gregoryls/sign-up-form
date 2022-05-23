@@ -80,19 +80,18 @@
                     <!-- <p>
                         Please choose a password with at least one upper case letter,
                          one lower case letter, and one number.
+                         pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
                     </p> -->
                 <input type="password" id="userPassword" name="userPassword"
-                placeholder="********" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
-                onchange='onChange()' required>
+                placeholder="********"  onchange='onChange()' required>
                 </div>
-                <div>
+                <div class="confirm">
                     <label for="confirmPassword">
                         CONFIRM PASSWORD
                     </label>
                 
                 <input type="password" id="confirmPassword" name="confirmPassword"
-                placeholder="********" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
-                onchange='onChange()'  required>
+                placeholder="********" onchange='onChange()'  required>
                 
                 </div>
             
