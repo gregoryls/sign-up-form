@@ -13,6 +13,8 @@
 .content{
     height: 100vh;
     width: 65vw;
+    font-family: sans-serif;
+    
 }
 #header{
     color: white;
@@ -67,6 +69,10 @@ body{
 #contentFoot p{
     margin-top: 20px;
 }
+#contentFoot a{
+    margin-left: 0px;
+    color: rgb(165, 59, 207)
+}
 
 #createAccount{
     color: rgb(0, 0, 0);
@@ -119,7 +125,7 @@ input:focus:invalid{
     margin-left: 40px;
     margin-top: -20px;
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 form{
     display: flex;
