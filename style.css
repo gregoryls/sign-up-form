@@ -83,8 +83,15 @@ p{
 input{
     border: 1px rgba(0, 0, 0, 0.307) solid;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 input:focus{
     border: none;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.24);
+}
+input:not(:placeholder-shown):invalid{
+    border: 2px red solid;
+}
+input:focus:invalid{
+    border: none;
 }
