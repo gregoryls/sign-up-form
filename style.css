@@ -81,9 +81,9 @@ p{
     box-shadow: inset 0px 0px 10px #000000;
 }
 input{
-    border: 1px rgba(0, 0, 0, 0.307) solid;
+    border: 2px rgba(0, 0, 0, 0.307) solid;
     border-radius: 4px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 input:focus{
     border: none;
@@ -93,7 +93,7 @@ input:not(:placeholder-shown):invalid{
     border: 2px red solid;
 }
 input:focus:invalid{
-    border: none;
+    border: 2px rgba(0, 0, 0, 0) solid;
 }
 #form{
     display: flex;
