@@ -1,3 +1,4 @@
+
 function onChange() {
     const password = document.querySelector('input[name=userPassword]');
     const confirm = document.querySelector('input[name=confirmPassword]');
@@ -5,6 +6,5 @@ function onChange() {
       confirm.setCustomValidity('');
     } else {
       confirm.setCustomValidity('Passwords do not match');
-    //   password.setCustomValidity('Passwords do not match');
     }
   }
