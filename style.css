@@ -111,3 +111,7 @@ form div{
     display: flex;
     flex-direction: column;
 }
+.password-error{
+    color: red;
+    font-size: 0.8rem;
+}
