@@ -72,17 +72,18 @@
                 <input type="tel" id="phone" name="phone"
                 placeholder="000-000-0000" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
                 </div>
-                <p>
-                    Please choose a password with at least one upper case letter,
-                     one lower case letter, and one number.
-                </p>
+                
                 <div>
                     <label for="userPassword">
                         PASSWORD
                     </label>
-                
+                    <!-- <p>
+                        Please choose a password with at least one upper case letter,
+                         one lower case letter, and one number.
+                    </p> -->
                 <input type="password" id="userPassword" name="userPassword"
-                placeholder="********" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                placeholder="********" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+                onchange='onChange()' required>
                 </div>
                 <div>
                     <label for="confirmPassword">
@@ -90,7 +91,8 @@
                     </label>
                 
                 <input type="password" id="confirmPassword" name="confirmPassword"
-                placeholder="********" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                placeholder="********" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                onchange='onChange()'  required>
                 
                 </div>
             
