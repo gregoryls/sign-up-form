@@ -83,6 +83,7 @@ p{
 input{
     border: 2px rgba(0, 0, 0, 0.307) solid;
     border-radius: 4px;
+    width: 165px;
     /* box-sizing: border-box; */
 }
 input:focus{
